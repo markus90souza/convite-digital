@@ -9,7 +9,7 @@
 1. Clone the repositorio
 
    ```bash
-   git clone https://github.com/sadmann7/skateshop.git
+   git clone https://github.com/markus90souza/convite-digital.git
    ```
 
 2. Instale as dependências
@@ -24,30 +24,18 @@
    bun install
    ```
 
-3. Copy the `.env.example` to `.env` and update the variables.
 
-   ```bash
-   cp .env.example .env
    ```
 
-4. Start the development server
+3. Inicie o projeto em modo de desenvolvimento
 
    ```bash
+   npm run dev
+      # ou
+   yarn dev
+      # ou
+      bun dev
+      # ou
    pnpm run dev
    ```
 
-5. Push the database schema
-
-   ```bash
-   pnpm run db:push
-   ```
-
-6. Start the Stripe webhook listener
-
-   ```bash
-   pnpm run stripe:listen
-   ```
-
-## How do I deploy this?
-
-Follow the deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
