@@ -24,9 +24,6 @@
    bun install
    ```
 
-
-   ```
-
 3. Inicie o projeto em modo de desenvolvimento
 
    ```bash
@@ -34,7 +31,7 @@
       # ou
    yarn dev
       # ou
-      bun dev
+   bun dev
       # ou
    pnpm run dev
    ```
