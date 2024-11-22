@@ -1,8 +1,8 @@
-import { Id, Event } from '@/core'
+import { Event } from '@/core'
 
 const events: Event[] = [
   {
-    id: Id.create(),
+    id: 'xdlhnq5lwm-esmllp6nie-hzgl0ajulz7',
     slug: 'evento-fullstack',
     password: 'password123',
     title: 'Evento de Desenvolvimento Fullstack',
@@ -17,7 +17,7 @@ const events: Event[] = [
     expected_audience: 200,
     guests: [
       {
-        id: Id.create(),
+        id: 'h1g2x30pglq-2qy7mc3nd8h-qq494djtbcq',
         name: 'Alice Silva',
         email: 'alice@example.com',
         is_confirm: true,
@@ -25,7 +25,7 @@ const events: Event[] = [
         number_of_companions: 1,
       },
       {
-        id: Id.create(),
+        id: 'unzgczdy0gp-uqljtf756de-ibfnezyz5f',
         name: 'Carlos Pereira',
         email: 'carlos@example.com',
         is_confirm: false,
@@ -33,7 +33,7 @@ const events: Event[] = [
         number_of_companions: 0,
       },
       {
-        id: Id.create(),
+        id: 'hqzmy1wi9gl-rgmibulirh-1k2twwu6waj',
         name: 'Beatriz Lima',
         email: 'beatriz@example.com',
         is_confirm: true,
@@ -43,7 +43,7 @@ const events: Event[] = [
     ],
   },
   {
-    id: Id.create(),
+    id: '2kis8yvhcvv-8um289gg1x5-zw08j0ciytk',
     slug: 'evento-js-avancado',
     password: 'js2024',
     title: 'Workshop Avançado de JavaScript',
@@ -57,7 +57,7 @@ const events: Event[] = [
     expected_audience: 100,
     guests: [
       {
-        id: Id.create(),
+        id: 'epy7dvzdn-h5ffojxd8xf-4u3dbflvkcs',
         name: 'Eduardo Santos',
         email: 'eduardo@example.com',
         is_confirm: true,
@@ -65,7 +65,7 @@ const events: Event[] = [
         number_of_companions: 0,
       },
       {
-        id: Id.create(),
+        id: 'q5pb671a0e-3a1txyighat-sbu67d47s8',
         name: 'Fernanda Costa',
         email: 'fernanda@example.com',
         is_confirm: true,
@@ -75,7 +75,7 @@ const events: Event[] = [
     ],
   },
   {
-    id: Id.create(),
+    id: '5nef2v2sxhl-80hjydv7qd5-fddre4x4oyr',
     slug: 'evento-dev-frontend',
     password: 'front123',
     title: 'Bootcamp de Desenvolvimento Frontend',
@@ -89,7 +89,7 @@ const events: Event[] = [
     expected_audience: 150,
     guests: [
       {
-        id: Id.create(),
+        id: '8tpp19ouoqi-6nm51io1n5a-lw6itbwufu',
         name: 'Gabriela Rocha',
         email: 'gabriela@example.com',
         is_confirm: true,
@@ -97,7 +97,7 @@ const events: Event[] = [
         number_of_companions: 1,
       },
       {
-        id: Id.create(),
+        id: 'a22ufkd5y2-6quz4dv5wln-qbbzwq551zs',
         name: 'Hugo Nogueira',
         email: 'hugo@example.com',
         is_confirm: false,
@@ -105,7 +105,7 @@ const events: Event[] = [
         number_of_companions: 0,
       },
       {
-        id: Id.create(),
+        id: 'cyy99oylu4w-s6c387plg5k-uyieywntrh',
         name: 'Isabela Martins',
         email: 'isabela@example.com',
         is_confirm: true,
@@ -115,7 +115,7 @@ const events: Event[] = [
     ],
   },
   {
-    id: Id.create(),
+    id: 'oz9uvdydcd-nql21g818sa-dwvqulair8l',
     slug: 'casamento-alberto-marina',
     password: 'casamento2024',
     title: 'Casamento do Alberto e Marina',
@@ -130,7 +130,7 @@ const events: Event[] = [
     expected_audience: 150,
     guests: [
       {
-        id: Id.create(),
+        id: '6odwyyikpiu-4rm8d4upd7a-2ve4yb8dq2',
         name: 'Bruno Cardoso',
         email: 'bruno@example.com',
         is_confirm: true,
@@ -138,7 +138,7 @@ const events: Event[] = [
         number_of_companions: 1,
       },
       {
-        id: Id.create(),
+        id: 'eg7lxxznuva-d4cnx48ijqt-iz6xznoo5ts',
         name: 'Carla Mendes',
         email: 'carla@example.com',
         is_confirm: true,
@@ -148,7 +148,7 @@ const events: Event[] = [
     ],
   },
   {
-    id: Id.create(),
+    id: 'muowo4f7k89-b93nq8qxqqd-0noa74ohiw9',
     slug: 'aniversario-joao',
     password: 'joao2024',
     title: 'Aniversário do João - 30 Anos',
@@ -163,7 +163,7 @@ const events: Event[] = [
     expected_audience: 80,
     guests: [
       {
-        id: Id.create(),
+        id: 'ir1r1ucu2od-461dkhc72tm-ydo4met07uj',
         name: 'Maria Souza',
         email: 'maria@example.com',
         is_confirm: true,
@@ -171,7 +171,7 @@ const events: Event[] = [
         number_of_companions: 2,
       },
       {
-        id: Id.create(),
+        id: '1wrml69nqd7-re2ywt674ic-vw5dbfxoj4q',
         name: 'José Almeida',
         email: 'jose@example.com',
         is_confirm: false,
@@ -181,7 +181,7 @@ const events: Event[] = [
     ],
   },
   {
-    id: Id.create(),
+    id: 'oqsjw6lyayh-q9b8sxtkvu-9cmebgi34ru',
     slug: 'inauguracao-loja-estrela',
     password: 'estrela2024',
     title: 'Inauguração da Loja Estrela',
@@ -196,7 +196,7 @@ const events: Event[] = [
     expected_audience: 300,
     guests: [
       {
-        id: Id.create(),
+        id: 'i3sg2jyquog-vnku4n38v4-6dibxujxr56',
         name: 'Cláudia Lima',
         email: 'claudia@example.com',
         is_confirm: true,
@@ -204,7 +204,7 @@ const events: Event[] = [
         number_of_companions: 3,
       },
       {
-        id: Id.create(),
+        id: 'npsgd64c31a-c30fsot6cpk-sbsuwwahdda',
         name: 'Ricardo Barbosa',
         email: 'ricardo@example.com',
         is_confirm: true,
@@ -214,7 +214,7 @@ const events: Event[] = [
     ],
   },
   {
-    id: Id.create(),
+    id: 'c1a5x0qgus-cfswa77ods5-z4nn6bezylp',
     slug: 'reuniao-familia-oliveira',
     password: 'familia2024',
     title: 'Reunião da Família Oliveira',
@@ -228,7 +228,7 @@ const events: Event[] = [
     expected_audience: 50,
     guests: [
       {
-        id: Id.create(),
+        id: '81ks0oozc35-ljvo5a8rqzg-qt28hdn6vge',
         name: 'Thiago Oliveira',
         email: 'thiago@example.com',
         is_confirm: true,
@@ -236,7 +236,7 @@ const events: Event[] = [
         number_of_companions: 4,
       },
       {
-        id: Id.create(),
+        id: '95qacnirxwr-ffuhv3s0nd9-nsu3rl4djee',
         name: 'Letícia Oliveira',
         email: 'leticia@example.com',
         is_confirm: true,
