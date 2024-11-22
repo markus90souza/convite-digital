@@ -31,7 +31,7 @@ const EventPage = () => {
             />
             <div className="flex gap-5">
               <Link
-                href={`/event/admin/${event.id}/${event.password}`}
+                href={`/event/dashboard/${event.id}/${event.password}`}
                 className="flex-1 app-button red"
               >
                 Admin

@@ -11,11 +11,9 @@ import { EventPasswordForm } from '../../_components/event-password-form'
 export default function EventAppPage(props: any) {
   const params: any = use(props.params)
 
-  const id = params.todos[0]
+  const id = params.all[0]
   const [event, setEvent] = useState<Event | null>(null)
-  const [password, setPassword] = useState<string | null>(
-    params.todos[1] ?? null,
-  )
+  const [password, setPassword] = useState<string | null>(params.all[1] ?? null)
 
   const present = event?.guests.filter((c) => c.is_confirm) ?? []
   const absent = event?.guests.filter((c) => !c.is_confirm) ?? []
